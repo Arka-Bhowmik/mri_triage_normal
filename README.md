@@ -4,4 +4,4 @@ This repository consist scripts for training a deep learning model using breast 
 
 ### TRAINING PIPELINE
 
-The training pipeline consist of training two seperate network (2D U-Net and VGG-16). The input to the U-Net is the substracted maximum intensity projection (MIP) images and out of U-Net is 2D binary mask. The U-Net is used here to segment the input image, i.e., breast from the thorax. Next, the mask is used to segment out the breast region. 
+The training pipeline consist of training two seperate network (2D U-Net and VGG-16). The input to the U-Net is substracted maximum intensity projection (MIP) images and out of U-Net is 2D binary mask. The U-Net is used here to segment the input image, i.e., breast from the thorax. Next, the mask is used to segment out the breast region. 
