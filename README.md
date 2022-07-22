@@ -20,4 +20,5 @@ The training pipeline consist of training two seperate networks in seperately (2
 The testing pipeline is completely automated wherein input are DICOM files and output is model prediction (see **Fig. 2**). During testing, the input DICOM files are used to create four subtracted MIPs. A single subtracted MIP with maximum projection of all the slices and three additional subtracted MIPS with maximum projection images of three sub-group slices. The additional three sub-group slices are extracted from the same DICOM files by dividing total slices by three parts. These extracted MIPs are segmented by the trained U-Net simultaneously, followed by dividing into four left and four right breasts corresponding to four subtracted MIPs. The segmented single breasts from all MIPs are then classified by the trained classifier simultaneously.
 
 ![image](https://user-images.githubusercontent.com/56223140/180342393-c92803f4-5d49-4b58-a22e-ae25bcac4cda.png)
+
 **Figure 2: Deep learning testing workflow.**
