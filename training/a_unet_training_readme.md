@@ -16,6 +16,9 @@ Python package pre-requsite:
 1. tensorflow (python deep learning package), 
 2. tensorflow_addons (use pip install tensorflow-addons), 
 3. matplotlib (use pip install matplotlib)
+4. scikit-learn (use pip install scikit-learn)
+5. pandas (use pip install pandas)
+6. 
 
 The main training function for u-net uses couple of sub-functions provided in path "/mri_triage_normal/support_function/". The main script is for execution and supporting functions are for executing suppoting tasks in the main script.
 
