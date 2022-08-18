@@ -18,9 +18,11 @@ Python package pre-requsite:
 3. matplotlib (use pip install matplotlib)
 4. scikit-learn (use pip install scikit-learn)
 5. pandas (use pip install pandas)
-6. 
 
-The main training function for u-net uses couple of sub-functions provided in path "/mri_triage_normal/support_function/". The main script is for execution and supporting functions are for executing suppoting tasks in the main script.
+
+
+### The main training function for u-net uses couple of sub-functions provided in path "/mri_triage_normal/support_function/". The main script is for execution and supporting functions are for executing suppoting tasks in the main script.
+
 
 ##### (a) Input                         ---> csv file with paths for image (without segmentation) and binary mask path (refer path "/mri_triage_normal/input/sample_unet.csv")
 
@@ -28,7 +30,9 @@ The main training function for u-net uses couple of sub-functions provided in pa
 
 ##### (c) Configuration for main script ---> "config_unet.py" [Note: Input changes are specified in config_unet.py]
 
-Other supporting sub-functions for traing u-net (refer path "/mri_triage_normal/support_function/"):
+
+### Other supporting sub-functions for traing u-net (refer path "/mri_triage_normal/support_function/"):
+
 
 ##### (d) read_and_split_unet.py       ----> For spliting the data into training and validation set
 
