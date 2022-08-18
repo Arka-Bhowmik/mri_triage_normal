@@ -28,7 +28,16 @@ The main training function for u-net uses couple of sub-functions provided in pa
 
 ##### (c) Configuration for main script ---> "config_unet.py" [Note: Input changes are specified in config_unet.py]
 
-Other supporting sub-functions for traingg u-net:
+Other supporting sub-functions for traing u-net (refer path "/mri_triage_normal/support_function/"):
 
-##### (d) 
+##### (d) read_and_split_unet.py       ----> For spliting the data into training and validation set
+
+##### (e) create_dictionary_unet.py    ----> For creating training paths and validation paths into dictionary
+
+##### (f) Data_gen_unet.py             ----> For generating training and validation generator
+
+##### (g) custom_model_unet.py         ----> Includes the u_net architecture
+
+##### (h) custom_metrics.py            ----> Includes functions for custom metrics (Dice similarity coefficient and Intersection over union
+
 
