@@ -13,7 +13,7 @@ import os
 #----------------------------------------------------------------------------
 #
 # Define base path to input csv file
-BASE_PATH = "/data/sutton/Arka/CNN_code/Segmentation_prog/input/segment_input/"        # BASE PATH INPUT CSV FILES FOR SEGMENTATION
+BASE_PATH = "/mri_triage_normal/input/"                               # BASE PATH INPUT CSV FILES FOR SEGMENTATION
 #
 CSV_NAME = "sample_unet.csv"                                          # This csv file does not contain external validation dataset
 CSV_NOTSPLIT = os.path.splitext(CSV_NAME)[0]                          # FILENAME OF CSV FILE (TO BE SPLITTED INTO Train & valid set)
@@ -44,5 +44,5 @@ h5file_name='unet'
 plot_ACC_LOSS="N"         # Plot training curves
 #
 # Define output path for model storage and testing of script
-BASE_OUTPUT = "/data/sutton/Arka/CNN_code/Segmentation_prog/output/result/"
+BASE_OUTPUT = "/mri_triage_normal/output/"
 #
