@@ -8,6 +8,9 @@ Follow the steps in "mask_creation.mp4". Ensure the "sample.csv" with path of or
 
 ![screenshot_mask](https://user-images.githubusercontent.com/56223140/185296161-d4eaa8cf-5776-484d-89a9-e6dce99784b4.png)
 
+### II. TRAINING U-Net Network
 
-### II. TRAINING U-Net
+To run the u-net network below python packages can be installed in local computer or server using below
+
+Python package pre-requsite:
 
