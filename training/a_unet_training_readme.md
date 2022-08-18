@@ -21,9 +21,9 @@ The main training function for u-net uses couple of sub-functions provided in pa
 
 ##### (a) Input                         ---> csv file with paths for image (without segmentation) and binary mask path (refer path "/mri_triage_normal/input/sample_unet.csv")
 
-##### (b) Run the main script (only)    ---> training_unet.pynb [Note: all paths has to be re-defined according to local computer]
+##### (b) Run the main script (only)    ---> "training_unet.pynb" [Note: all paths has to be re-defined according to local computer]
 
-##### (c) Configuration for main script ---> config_unet.py [Note: Input changes are specified in config_unet.py]
+##### (c) Configuration for main script ---> "config_unet.py" [Note: Input changes are specified in config_unet.py]
 
 Other supporting sub-functions for traingg u-net:
 
