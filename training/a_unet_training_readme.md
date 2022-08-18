@@ -19,7 +19,7 @@ Python package pre-requsite:
 
 The main training function for u-net uses couple of sub-functions provided in path "/mri_triage_normal/support_function/". The main script is for execution and supporting functions are for executing suppoting tasks in the main script.
 
-(a) Input : csv file with paths for image (without segmentation) and binary mask path (refer path "/mri_triage_normal/input/sample_unet.csv")
+(a) Input                         ---> csv file with paths for image (without segmentation) and binary mask path (refer path "/mri_triage_normal/input/sample_unet.csv")
 
 (b) Run the main script (only)    ---> training_unet.pynb [Note: all paths has to be re-defined according to local computer]
 
