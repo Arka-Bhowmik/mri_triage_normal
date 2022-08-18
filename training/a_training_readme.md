@@ -6,6 +6,7 @@ This folder contains a U-Net training script namely "training_unet.pynb" used fo
 
 Follow the steps in "mask_creation.mp4". Ensure the "sample.csv" with path of original image is available in the same format as in csv file provided in folder path "/mri_triage_normal/input/sample.csv" or else modify the "create_mask.mlx" script accordingly.
 
+![screenshot_mask](https://user-images.githubusercontent.com/56223140/185296161-d4eaa8cf-5776-484d-89a9-e6dce99784b4.png)
 
 
 ### II. TRAINING U-Net
