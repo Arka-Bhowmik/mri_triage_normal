@@ -13,4 +13,5 @@ Follow the steps in "mask_creation.mp4". Ensure the "sample.csv" with path of or
 To run the u-net network below python packages can be installed in local computer or server using below
 
 Python package pre-requsite:
+1. tensorflow (python deep learning package - use the provided pdf file how to install?), 2. tensorflow_addons (use pip install tensorflow-addons), 3. matplotlib (also in provided pdf)
 
