@@ -10,8 +10,17 @@ Follow the steps in "mask_creation.mp4". Ensure the "sample.csv" with path of or
 
 ### II. TRAINING U-Net Network
 
-To run the u-net network below python packages can be installed in local computer or server using below
+To run the u-net network below python packages can be installed in local computer or server. Refer PDF file for how to install neccessary packages.
 
 Python package pre-requsite:
-1. tensorflow (python deep learning package - use the provided pdf file how to install?), 2. tensorflow_addons (use pip install tensorflow-addons), 3. matplotlib (also in provided pdf)
+1. tensorflow (python deep learning package), 
+2. tensorflow_addons (use pip install tensorflow-addons), 
+3. matplotlib (use pip install matplotlib)
+
+The main training function for u-net uses couple of sub-functions provided in path "/mri_triage_normal/support_function/". The main script is for execution and supporting functions are for executing suppoting tasks in the main script.
+(a) Run the main script (only)    ---> training_unet.pynb [Note: all paths has to be re-defined according to local computer]
+(b) Configuration for main script ---> config_unet.py [Note: Input changes are specified in config_unet.py]
+
+Other supporting sub-functions for traingg u-net:
+(c) 
 
