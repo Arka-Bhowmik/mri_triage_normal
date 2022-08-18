@@ -1,4 +1,4 @@
-def custom_model_unet(img_size, channels):
+def unet(img_size, channels):
     #
     # IMPORT NECCESSARY LIBRARIES
     import tensorflow as tf
