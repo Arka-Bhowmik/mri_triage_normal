@@ -1,0 +1,4 @@
+BIRADS,Split_class,MRN,Accession,File,File_path,Segment
+1,0,1000000,2000000,MIP_RL_ff.jpg,C:\Users\Tigger\Desktop\segmentation\master_RL\unet_train_data\2000000\MIP_RL_ff.jpg,
+4,1,1000001,2000001,MIP_RL_ff.jpg,C:\Users\Tigger\Desktop\segmentation\master_RL\unet_train_data\2000001\MIP_RL_ff.jpg,
+2,1,1000002,2000002,MIP_RL_ff.jpg,C:\Users\Tigger\Desktop\segmentation\master_RL\unet_train_data\2000002\MIP_RL_ff.jpg,
