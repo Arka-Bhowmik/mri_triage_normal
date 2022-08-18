@@ -1,6 +1,6 @@
 # INSTRUCTION FOR TRAINING U-NET
 
-This folder contains a U-Net training script namely "training_unet.pynb" used for training a u-net net work. In order to train the U-net, binary mask acts as a ground truth which is created using a matlab application "create_mask.mlx". For creating the mask using the matlab code, one can follow the below steps
+This folder contains a U-Net training script namely "training_unet.pynb" used for training a u-net network. To train the U-net, binary mask acts as a ground-truth which was created using a matlab application "create_mask.mlx". For creating the mask using the matlab code, one can follow the below steps
 
 ### I. MASK CREATION STEPS
 
