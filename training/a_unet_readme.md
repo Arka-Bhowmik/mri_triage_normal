@@ -31,7 +31,7 @@ Python package pre-requsite:
 ##### (c) Configuration for main script ---> "config_unet.py" [Note: Input changes are specified in config_unet.py]
 
 
-### Other supporting sub-functions for traing u-net (refer path "/mri_triage_normal/support_function/"):
+### Other supporting sub-functions for training u-net (refer path "/mri_triage_normal/support_function/"):
 
 
 ##### (d) read_and_split_unet.py       ----> For spliting the data into training and validation set
@@ -42,6 +42,6 @@ Python package pre-requsite:
 
 ##### (g) custom_model_unet.py         ----> Includes the u_net architecture
 
-##### (h) custom_metrics.py            ----> Includes functions for custom metrics (Dice similarity coefficient and Intersection over union
+##### (h) custom_metrics.py            ----> Includes functions for custom metrics (Dice similarity coefficient and Intersection over union)
 
 
