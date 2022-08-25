@@ -15,25 +15,21 @@ Python package pre-requsite:
 
 
 
-#### The main training function for Vgg-16 uses couple of sub-functions provided in path "/mri_triage_normal/support_function/". The main script is for execution and supporting functions are for executing suppoting tasks in the main script.
+#### The main training function for VGG-16 uses couple of sub-functions provided in path "/mri_triage_normal/support_function/". The main script is for execution and supporting functions are for executing suppoting tasks in the main script.
 
 
-##### (a) Input                         ---> csv file with paths for image (without segmentation) and binary mask path (refer path "/mri_triage_normal/input/sample_unet.csv")
+##### (a) Input                         ---> csv file with paths for segmented breast MIPs  (refer path "/mri_triage_normal/input/sample_vgg16.csv")
 
-##### (b) Run the main script (only)    ---> "training_unet.pynb" [Note: all paths has to be re-defined according to local computer]
+##### (b) Run the main script (only)    ---> "training_vgg16.pynb" [Note: all paths has to be re-defined according to local computer]
 
-##### (c) Configuration for main script ---> "config_unet.py" [Note: Input changes are specified in config_unet.py]
-
-
-### Other supporting sub-functions for training u-net (refer path "/mri_triage_normal/support_function/"):
+##### (c) Configuration for main script ---> "config_vgg16.py" [Note: Input changes are specified in config_vgg16.py]
 
 
-##### (d) read_and_split_unet.py       ----> For spliting the data into training and validation set
+### Other supporting sub-functions for training VGG-16  (refer path "/mri_triage_normal/support_function/"):
 
-##### (e) create_dictionary_unet.py    ----> For creating training paths and validation paths into dictionary
 
-##### (f) Data_gen_unet.py             ----> For generating training and validation generator
+##### (d) read_and_split_vgg16.py       ----> For spliting the data into training and validation set
 
-##### (g) custom_model_unet.py         ----> Includes the u_net architecture
+##### (e) create_dictionary_vgg16.py    ----> For creating training paths and validation paths into dictionary
 
-##### (h) custom_metrics.py            ----> Includes functions for custom metrics (Dice similarity coefficient and Intersection over union)
+##### (f) Data_gen_vgg16.py             ----> For generating training and validation generator
