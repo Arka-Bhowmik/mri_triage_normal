@@ -14,10 +14,10 @@ To run the u-net network below python packages can be installed in local compute
 
 Python package pre-requsite:
 1. tensorflow (python deep learning package), 
-2. tensorflow_addons (use pip install tensorflow-addons), 
-3. matplotlib (use pip install matplotlib)
-4. scikit-learn (use pip install scikit-learn)
-5. pandas (use pip install pandas)
+2. tensorflow_addons, 
+3. matplotlib,
+4. scikit-learn,
+5. pandas
 
 
 
