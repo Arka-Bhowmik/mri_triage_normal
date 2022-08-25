@@ -25,7 +25,7 @@ Python package pre-requsite:
 ##### (c) Configuration for main script ---> "config_vgg16.py" [Note: Input changes are specified in config_vgg16.py]
 
 
-### Other supporting sub-functions for training VGG-16  (refer path "/mri_triage_normal/support_function/"):
+#### Other supporting sub-functions for training VGG-16  (refer path "/mri_triage_normal/support_function/"):
 
 
 ##### (d) read_and_split_vgg16.py       ----> For spliting the data into training and validation set
