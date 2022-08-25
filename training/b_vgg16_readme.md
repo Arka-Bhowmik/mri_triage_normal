@@ -15,7 +15,7 @@ Python package pre-requsite:
 
 
 
-#### The main training function for VGG-16 uses couple of sub-functions provided in path "/mri_triage_normal/support_function/". The main script is for execution and supporting functions are for executing suppoting tasks in the main script.
+#### A. The main training function for VGG-16 uses couple of sub-functions provided in path "/mri_triage_normal/support_function/". The main script is for execution and supporting functions are for executing suppoting tasks in the main script.
 
 
 ##### (a) Input                         ---> csv file with paths for segmented breast MIPs  (refer path "/mri_triage_normal/input/sample_vgg16.csv")
@@ -25,7 +25,7 @@ Python package pre-requsite:
 ##### (c) Configuration for main script ---> "config_vgg16.py" [Note: Input changes are specified in config_vgg16.py]
 
 
-#### Other supporting sub-functions for training VGG-16  (refer path "/mri_triage_normal/support_function/"):
+#### B. Other supporting sub-functions for training VGG-16  (refer path "/mri_triage_normal/support_function/"):
 
 
 ##### (d) read_and_split_vgg16.py       ----> For spliting the data into training and validation set
