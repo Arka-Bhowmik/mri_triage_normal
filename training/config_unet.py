@@ -1,6 +1,6 @@
 #------------------------------------------------------------------
-# This is a configuration file used for training or testing u-net
-# (ONLY MODEIFY CONFIG FILE TO CHANGE IN TRAING/TESTING PROCESS)
+# This is a configuration file used for training u-net
+# (ONLY MODEIFY CONFIG FILE TO CHANGE IN TRAING PROCESS)
 #------------------------------------------------------------------
 #
 #
@@ -9,7 +9,7 @@
 import os
 #
 #----------------------------------------------------------------------------
-#              (A) ALL MODEL INPUTS FOR TRAINING/TESTING
+#              (A) ALL MODEL INPUTS FOR TRAINING
 #----------------------------------------------------------------------------
 #
 # Define base path to input csv file
