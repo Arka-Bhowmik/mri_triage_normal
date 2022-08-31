@@ -28,8 +28,10 @@ Python package pre-requsite:
 #### B. Other supporting sub-functions for training VGG-16  (refer path "/mri_triage_normal/support_function/"):
 
 
-##### (d) read_and_split_vgg16.py       ----> For spliting the data into training and validation set
+##### (d) read_and_split_vgg16.py       ----> For spliting the data into training and validation sets
 
-##### (e) create_dictionary_vgg16.py    ----> For creating training paths and validation paths into dictionary
+##### (e) user_input_balancing.py       ----> For balancing the class imbalance train and valid sets
 
-##### (f) Data_gen_vgg16.py             ----> For generating training and validation generator
+##### (f) create_dictionary_vgg16.py    ----> For creating training paths and validation paths into dictionary
+
+##### (g) Data_gen_vgg16.py             ----> For generating training and validation generator
