@@ -1,6 +1,6 @@
 # INSTRUCTION FOR TRAINING VGG-16
 
-This folder contains a VGG-16 binary classification training script namely "training_vgg16.pynb" used for training a classification network. To train the classification network, the radiologist BI-RADS category acted as a ground-truth and input to classification network is segmented single breast from thorax. Note, for training the classifier two classes were defined (i) BI-RADS 1&2 (as negative class or extremely low suspcion) and (ii) BI-RADS 3to6 (as positive class or possibly suspicious). The BI-RADS catagory was extracted from patient reoprt.
+This folder contains a VGG-16 binary classification training script namely "training_vgg16.pynb" used for training a classification network. To train the classification network, the radiologist BI-RADS category acted as a ground-truth and input to classification network is segmented MIP of single breast from thorax. Note, for training the classifier two classes were defined (i) BI-RADS 1&2 (as negative class or extremely low suspcion) and (ii) BI-RADS 3to6 (as positive class or possibly suspicious). The BI-RADS catagory was extracted from patient reoprt.
 
 ### I. TRAINING VGG-16 Network
 
