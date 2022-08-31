@@ -15,7 +15,7 @@ import os
 # Define base path to input csv file
 BASE_PATH = "/mri_triage_normal/input/"        			    # BASE PATH INPUT CSV FILES FOR VGG-16
 #
-CSV_NAME = "sample_vgg.csv"                                 # This csv file does not contain external validation dataset
+CSV_NAME = "sample_vgg16.csv"                               # This csv file does not contain external validation dataset
 CSV_NOTSPLIT = os.path.splitext(CSV_NAME)[0]                # FILENAME OF CSV FILE (TO BE SPLITTED INTO Train & valid set)
 #
 # CSV Name after spliting to train & validation set
@@ -31,7 +31,7 @@ split_ID='MRN'                                              # SPECIFY THE COLUMN
 split_flg='split'                                           # SPECIFY 'split' OR 'nosplit' FOR SPLIT OPERATION TO EXECUTE
 #
 # Initialize our learning rate, number of epochs to train and the batch size
-INIT_LR = 1e-5                                              # INITIAL LEARNING RATE FOR ADAM OPTIMIZER
+INIT_LR = 1e-6                                              # INITIAL LEARNING RATE FOR ADAM OPTIMIZER
 NUM_EPOCHS = 100                                            # NUMBER OF ITERATION TRAINING DATA WILL BE TRAINED
 BATCH_SIZE = 10                                             # TRAINING BATCHES
 IMAGE_SIZE = 256                                            # SIZE OF ORIGINAL IMAGE
