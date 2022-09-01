@@ -17,5 +17,7 @@ Google drive:
    (d) Fold 4: https://drive.google.com/file/d/11KBxxw4U1TnVKn9O7ZXrI-7SoV_Ut8g6/view?usp=sharing
    
    (e) Fold 5: https://drive.google.com/file/d/1AG4uE6RWs73eRRYfKS7Qu3uspY_hQ_Eb/view?usp=sharing
+   
+3. Download entire weight folder: https://drive.google.com/drive/folders/1Xdjpgld-xnEfAy1f1iTcq6BnfnibKODu?usp=sharing
 
 
