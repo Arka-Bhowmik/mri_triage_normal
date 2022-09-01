@@ -1,6 +1,6 @@
 # INSTRUCTION FOR TRAINING VGG-16
 
-This folder contains a VGG-16 binary classification training script namely "training_vgg16.pynb" used for training a classification network. To train the classification network, the radiologist BI-RADS category acted as a ground-truth and input to classification network is segmented MIP of single breast from thorax. Note, for training the classifier two classes were defined (i) BI-RADS 1&2 (as negative class or extremely low suspcion) and (ii) BI-RADS 3to6 (as positive class or possibly suspicious). The BI-RADS catagory was extracted from patient report.
+This folder contains a VGG-16 binary classification training script namely "training_vgg16.pynb" used for training a classification network. To train the classification network, the radiologist BI-RADS category considered as a ground-truth and the input to classification network is segmented MIP of single breast from thorax. Note, for training the classifier two classes were defined (i) Class 0 for BI-RADS 1&2 (as negative class or extremely low suspcion) and (ii) Class 1 for BI-RADS 3to6 (as positive class or possibly suspicious). The BI-RADS catagory was extracted from patient report.
 
 ### I. TRAINING VGG-16 Network
 
@@ -30,8 +30,10 @@ Python package pre-requsite:
 
 ##### (d) read_and_split_vgg16.py       ----> For spliting the data into training and validation sets
 
-##### (e) user_input_balancing.py       ----> For balancing the class imbalance train and valid sets
+##### (e) user_input_balancing.py       ----> For balancing the class imbalance train and valid sets (automatically oversample the weaker class using function f)
 
-##### (f) create_dictionary_vgg16.py    ----> For creating training paths and validation paths into dictionary
+##### (f) manual_sampling_mip.py        ----> This function randomly oversample the weaker class
 
-##### (g) Data_gen_vgg16.py             ----> For generating training and validation generator
+##### (g) create_dictionary_vgg16.py    ----> For creating training paths and validation paths into dictionary
+
+##### (h) Data_gen_vgg16.py             ----> For generating training and validation generator
