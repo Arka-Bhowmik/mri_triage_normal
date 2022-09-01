@@ -37,3 +37,5 @@ Python package pre-requsite:
 ##### (g) create_dictionary_vgg16.py    ----> For creating training paths and validation paths into dictionary
 
 ##### (h) Data_gen_vgg16.py             ----> For generating training and validation generator
+
+#### C. Note: For cross-validation the same training algorithm was used 5 times for 5-folds by spliting the entire training data 5-times. This would lead to five distinct models such that in inference mode the prediction is obtained as average of all five models.
