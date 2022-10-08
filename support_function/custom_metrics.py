@@ -65,7 +65,7 @@ def dice_bce_loss(y_true, y_pred):
     union = tf.keras.backend.sum(y_true_flat) + tf.keras.backend.sum(y_pred_flat)
     dice_acc = tf.keras.backend.mean((2. * intersection + smooth)/(union + smooth))
     #
-    dice_bce_loss=BCE+dice_loss
+    dice_bce_loss=BCE+(1-dice_acc)
     #
     return dice_bce_loss
 #
