@@ -2,6 +2,14 @@
 
 This repository consist scripts for training a deep learning model using breast MRI images as input and testing for triaging normal breast MRI to abbreviated list. The entire script can be runned using python and deep learning library tensorflow-Keras. The needed packages for training the algorithm on new data is detailed in the training folder. On the other hand, packages needed for testing only using weights trained by us is detailed in testing folder.
 
+Use of source files and data, with or without modification, are permitted.
+
+1. Please cite the source paper.
+
+2. Source paper: Source paper will be updated upon publication.
+
+3. Further information can be obtained by writing to Arka Bhowmik (arkabhowmik@yahoo.co.uk).
+
 **Scripts are prepared using deep learning library tensorflow-Keras**
 
 ### I. TRAINING PIPELINE
