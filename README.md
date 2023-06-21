@@ -6,9 +6,10 @@ Use of source files and data, with or without modification, are permitted.
 
 1. Please cite the source paper.
 
-2. Source paper: Source paper will be updated upon publication.
+2. Source paper:
+Automated Triage of Screening Breast MRI Examinations in High-Risk Women Using an Ensemble Deep Learning Model. Investigative Radiology. 2023; DOI: 10.1097/RLI.0000000000000976 <a href="https://journals.lww.com/investigativeradiology/Abstract/9900/Automated_Triage_of_Screening_Breast_MRI.104.aspx"> [View] </a>
 
-3. Further information can be obtained by writing to Arka Bhowmik (arkabhowmik@yahoo.co.uk).
+4. Further information can be obtained by writing to Arka Bhowmik (arkabhowmik@yahoo.co.uk).
 
 **Scripts are prepared using deep learning library tensorflow-Keras**
 
