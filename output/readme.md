@@ -4,20 +4,20 @@ The output files include the path of our trained model weights. These weights ca
 
 Google drive:
 
-1. Trained weight for U-net: https://drive.google.com/file/d/1WpDTAH1nOqwlicvu9mRLYhK7VGt8MlRn/view?usp=sharing
+1. Trained weight for U-net: https://drive.google.com/file/d/1BY45-DKsk3cLqfcU6o0rJpG8QKozUUxg/view?usp=sharing
 
 2. Trained weight for VGG16: 
    
-   (a) Fold 1: https://drive.google.com/file/d/1EBkU6pPxDlLrJ7lWOr_Z5AWEvf6A_Xe0/view?usp=sharing
+   (a) Fold 1: https://drive.google.com/file/d/1BfA-woTZsDWmvbWep_FWetCJK0CnbPXF/view?usp=sharing
    
-   (b) Fold 2: https://drive.google.com/file/d/1RiX0LNdWSTFFI62PljzKxMgBpwW6eVoS/view?usp=sharing
+   (b) Fold 2: https://drive.google.com/file/d/1Bkzu9PMuSmXWYulcVgkJPFGHmz0KWQlq/view?usp=sharing
    
-   (c) Fold 3: https://drive.google.com/file/d/1JD8OSsHJER2GxYkiClIVLqtEhPuQWE3p/view?usp=sharing
+   (c) Fold 3: https://drive.google.com/file/d/1Bs3eAVmOXfuLgPae0PQJduHVJ2QBICyX/view?usp=sharing
    
-   (d) Fold 4: https://drive.google.com/file/d/11KBxxw4U1TnVKn9O7ZXrI-7SoV_Ut8g6/view?usp=sharing
+   (d) Fold 4: https://drive.google.com/file/d/1BtPFdoxcGhGpSird5Yhp31rO4SwTIjct/view?usp=sharing
    
-   (e) Fold 5: https://drive.google.com/file/d/1AG4uE6RWs73eRRYfKS7Qu3uspY_hQ_Eb/view?usp=sharing
+   (e) Fold 5: https://drive.google.com/file/d/1By51-ch1S3238AFQbOk_HAk1x7WJCqJ3/view?usp=sharing
    
-3. Download entire weight folder: https://drive.google.com/drive/folders/1Xdjpgld-xnEfAy1f1iTcq6BnfnibKODu?usp=sharing
+3. Download entire weight folder: https://drive.google.com/drive/folders/1BXkoMra00l7TUwoPazDEQmItBaq-U9XR?usp=sharing
 
 
