@@ -13,7 +13,7 @@ Automated Triage of Screening Breast MRI Examinations in High-Risk Women Using a
 
 **Scripts are prepared using deep learning library tensorflow-Keras**
 
-## Download ![5429470](https://github.com/Arka-Bhowmik/mri_triage_normal/assets/56223140/d07403fe-0f79-4720-af28-c275b312bde2) image for running inference (instruction in testing folder)
+## Download ![5429470](https://github.com/Arka-Bhowmik/mri_triage_normal/assets/56223140/d07403fe-0f79-4720-af28-c275b312bde2) image to run inference (download link in testing folder)
 
 ### I. TRAINING PIPELINE
 
