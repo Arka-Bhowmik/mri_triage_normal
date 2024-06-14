@@ -19,7 +19,7 @@ Python package pre-requsite:
 4. scikit-learn,
 5. pandas
 
-
+![U_net](https://github.com/Arka-Bhowmik/mri_triage_normal/assets/56223140/487a367a-d040-464a-b427-3f16cc0720d9)
 
 #### A. The main training function for u-net uses couple of sub-functions provided in path "/mri_triage_normal/support_function/". The main script is for execution and supporting functions are for executing suppoting tasks in the main script.
 
@@ -40,6 +40,7 @@ Python package pre-requsite:
 
 ##### (f) Data_gen_unet.py             ----> For generating training and validation generator
 
+
 # INSTRUCTION FOR TRAINING VGG-16
 
 This folder contains a VGG-16 binary classification training script namely "training_vgg16.pynb" used for training a classification network. To train the classification network, the radiologist BI-RADS category considered as a ground-truth and the input to classification network is segmented MIP of single breast from thorax. Note, for training the classifier two classes were defined (i) Class 0 for BI-RADS 1&2 (as negative class or extremely low suspcion) and (ii) Class 1 for BI-RADS 3to6 (as positive class or possibly suspicious). The BI-RADS catagory was extracted from patient report.
@@ -55,6 +56,7 @@ Python package pre-requsite:
 4. scikit-learn,
 5. pandas.
 
+![Vgg-16](https://github.com/Arka-Bhowmik/mri_triage_normal/assets/56223140/79569ba9-3fa4-4d17-a7c3-96abbfff1cfd)
 
 
 #### A. The main training function for VGG-16 uses couple of sub-functions provided in path "/mri_triage_normal/support_function/". The main script is for execution and supporting functions are for executing suppoting tasks in the main script.
