@@ -4,13 +4,15 @@ This repository consist scripts for training a deep learning model using breast 
 
 Use of source files and data, with or without modification, are permitted.
 
-1. Please cite the source paper.
+Please cite source papers.
 
-2. Source paper:
-Automated Triage of Screening Breast MRI Examinations in High-Risk Women Using an Ensemble Deep Learning Model. Investigative Radiology. 2023; DOI: 10.1097/RLI.0000000000000976 <a href="https://journals.lww.com/investigativeradiology/Abstract/9900/Automated_Triage_of_Screening_Breast_MRI.104.aspx"> [View] </a>, [[Download]](https://github.com/user-attachments/files/15830061/automated_triage_mri.pdf)
+##### [1] Bhowmik et. al., Automated Triage of Screening Breast MRI Examinations in High-Risk Women Using an Ensemble Deep Learning Model. Investigative Radiology. 2023; DOI: 10.1097/RLI.0000000000000976 <a href="https://journals.lww.com/investigativeradiology/Abstract/9900/Automated_Triage_of_Screening_Breast_MRI.104.aspx"> [View] </a>, [[Download]](https://github.com/user-attachments/files/15830061/automated_triage_mri.pdf)
 
+Additional application: We repurposed an AI triaging tool to perform “on-the-fly midscan decision” to decrease scan times. 
 
-4. Further information can be obtained by writing to Arka Bhowmik (arkabhowmik@yahoo.co.uk).
+##### [2] Eskreis-Winkler et. al., Adaptive Breast MRI Scanning Using AI. Radiology. 2025; DOI: 0.1148/radiol.242924 <a href="https://pubs.rsna.org/doi/full/10.1148/radiol.242924"> [View] </a>
+
+Further information can be obtained by writing to Arka Bhowmik (arkabhowmik@yahoo.co.uk).
 
 ## Download  🐳  docker image to run inference (see testing folder)
 
